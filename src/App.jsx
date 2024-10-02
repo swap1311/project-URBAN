@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Footer from "./components/Footer";
-import Grid from './components/grid';
+import Grid from './components/Grid';
 import Categories from './components/Categories';
 
 
