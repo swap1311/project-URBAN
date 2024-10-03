@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="w-[100%]  bg-[white] flex flex-col items-start p-[50px] gap-[40px]">
+    <div className="w-[100%]  bg-[red] flex flex-col items-center p-[50px] gap-[40px]">
       {/* <div className="w-[256px] h-[54px] bg-[yellow]  flex justify-flex p-[10px]">Total Categories</div> */}
       <Categories />
       <Grid />
