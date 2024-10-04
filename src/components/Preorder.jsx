@@ -1,11 +1,14 @@
 function Preorder() {
   return (
     <>
-      <div className="w-[433px] h-[74px] bg-[white] flex justify-center itmes-start p-[10px]">
-        <span className="text-[36px] font-[poppins] font-[500]">
+      <div className="w-[100%] h-[74px] bg-[white] p-[10px]">
+        <span className="text-[36px] w-full text-left font-[poppins] font-[500]">
           Interiors by Urban Nest
         </span>
       </div>
+      {/* <div className="text-[36px] bg-[white] w-full font-[poppins] font-[500]">
+      Interiors by Urban Nest
+      </div> */}
       <div
         className="w-[100%] h-[598px] bg-[white]  flex justify-center items-center px-[149px] py-[70px]"
         style={{
@@ -16,7 +19,7 @@ function Preorder() {
         }}
       >
         <div className=" w-full h-[100%]  bg-transparent flex flex-col gap-[19px]">
-          <div className=" h-[106px] bg-[lightblue] bg-transparent">
+          <div className=" h-[106px] bg-[white] bg-transparent">
             <span className="text-[54px] font-[500] font-[poppins] text-[white] leading-none break-words">
               Craft Your Ideal Furniture <br />
               <span className="text-[54px] font-[500] font-[poppins] text-[white] leading-none">
@@ -35,6 +38,9 @@ function Preorder() {
               </span>
             </span>
           </div>
+          <div className="w-[138px] h-[38px] bg-[#3C3228] text-[white] font-[500] text-[14px] font-[poppins] flex justify-center items-center">
+                Pre-Order-Now
+              </div>
         </div>
       </div>
     </>

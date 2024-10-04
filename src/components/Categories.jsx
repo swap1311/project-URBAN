@@ -3,7 +3,7 @@ import React from "react";
 const Categories = () => {
   return (
     <>
-      <div className="text-[36px] bg-[blue] w-full font-[poppins] font-[500]">
+      <div className="text-[36px] bg-[white] w-full font-[poppins] font-[500]">
           Top Categories
       </div>
       <div className="w-[100%] h-[666px] bg-[white] flex justify-center gap-[10px]">
