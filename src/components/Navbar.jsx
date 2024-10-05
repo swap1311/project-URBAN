@@ -1,25 +1,26 @@
 import React from "react";
+import { FaSearch, FaHeart, FaShoppingCart, FaUser } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="bg-white  w-full">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+    <div className="bg-white w-[100%]">
+      <div className="container flex justify-between items-center">
         <div className="text-2xl font-bold">Urban Nest</div>
 
-        <div className="flex space-x-6">
-          <div className="mr-auto">Furniture</div>
-          <div>Outdoor</div>
-          <div>Lighting</div>
-          <div>Dining</div>
-          <div>Bathrooms</div>
-          <div>Mirrors & Decors</div>
-        </div>
+        <ul className="flex space-x-6">
+          <li className="cursor-pointer">Furniture</li>
+          <li className="cursor-pointer">Outdoor</li>
+          <li className="cursor-pointer">Lightning</li>
+          <li className="cursor-pointer">Dinning</li>
+          <li className="cursor-pointer">Bathrooms</li>
+          <li className="cursor-pointer">Mirrors & Decors</li>
+        </ul>
 
-        <div className="flex space-x-10">
-          <img src="file:///C:/Users/91630/Downloads/01%20align%20center%20(1).svg" alt="Search" className="w-[24px] h-[24px]" />
-          <img src="https://via.placeholder.com/24" alt="Heart" className="w-[24px] h-[24px]" />
-          <img src="https://via.placeholder.com/24" alt="Shopping Cart" className="w-[24px] h-[24px]" />
-          <img src="https://via.placeholder.com/24" alt="User" className="w-[24px] h-[24px]" />
+        <div className="flex" style={{ gap: "42px" }}>
+          <FaSearch className="text-[gray] size-[600] cursor-pointer" />
+          <FaHeart className="text-[gray] size-[600] cursor-pointer" />
+          <FaShoppingCart className="text-[gray] size-[600] cursor-pointer" />
+          <FaUser className="text-[gray] size-[600] cursor-pointer" />
         </div>
       </div>
     </div>

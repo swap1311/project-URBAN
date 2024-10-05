@@ -15,7 +15,7 @@ function App() {
     <div className="w-[100%] bg-[white] flex flex-col  justify-between  p-[50px] gap-[40px]">
       <Navbar />
       <div className="w-full bg-[white] h-[717px] flex justify-between py-[40px] gap-[50px]">
-        <div className="w-[50%] h-full bg-[white]  gap-[25px]">
+        <div className="w-[50%] h-full bg-[white] gap-[63px]">
           <div className="w-full h- bg-[white] font-[600] text-[43px] font-[poppins] flex flex-col gap-[25px]">
             <p>
               Elevate your space with sleek minimalist furniture designs that
@@ -33,10 +33,33 @@ function App() {
               <div className="w-[118px] h-[28px] font-[500] text-[18px] font-[poppins] self-end">
                 <u>Watch demo</u>
               </div>
+              
                 
             </div>
-            
           </div>
+          <div className="w-full h-[100px] bg-[white] flex jutsify-row"></div>
+            {/* <div className="w-full h-[100px] bg-[yellow] flex jutsify-row">hello</div> */}
+            <div class="w-[591px] h-[77px] flex flex-row flex-auto bg-[white] gap-[38px]">
+        <div className="w-[75px] h-[38px]">
+          2500+
+          <div className="w-[104px] h-[24px] font-[300] font-[poppins]">
+            Unique styles
+          </div>
+        </div>
+        <div>
+          3000+
+          <div className="w-[141px] h-[full] font-[16px] font-[poppins]">
+            Happy customers
+          </div>
+        </div>
+
+        <div className="w-[50px] h-[33px]">
+          1000+
+          <div className=" w-[128px] h-[24px] font-[300] font-[poppins]">
+            Certified Outlets
+          </div>
+        </div>
+      </div>
         </div>
         <div className="w-[499px] rounded-[29px] flex full bg-[white] ]">
           <img
@@ -46,22 +69,28 @@ function App() {
           />
         </div>
       </div>
-      <div class="w-[591px] h-[77px] flex flex-row flex-auto bg-[white] gap-[38px]">
-  <div className="w-[75px] h-[38px]">2500+
-    <div className="w-[104px] h-[24px] font-[300] font-[poppins]">Unique styles</div>
-  </div>
-  <div>3000+
-    <div className="w-[141px] h-[full] font-[16px] font-[poppins]">Happy customers</div>
-    </div>
-    
-  <div className="w-[50px] h-[33px]">1000+
-    <div className=" w-[128px] h-[24px] font-[300] font-[poppins]">Certified Outlets</div>
-  </div>
-</div>
-        
+      {/* <div class="w-[591px] h-[77px] flex flex-row flex-auto bg-[white] gap-[38px]">
+        <div className="w-[75px] h-[38px]">
+          2500+
+          <div className="w-[104px] h-[24px] font-[300] font-[poppins]">
+            Unique styles
+          </div>
+        </div>
+        <div>
+          3000+
+          <div className="w-[141px] h-[full] font-[16px] font-[poppins]">
+            Happy customers
+          </div>
+        </div>
 
-      
-      
+        <div className="w-[50px] h-[33px]">
+          1000+
+          <div className=" w-[128px] h-[24px] font-[300] font-[poppins]">
+            Certified Outlets
+          </div>
+        </div>
+      </div> */}
+
       <Categories />
       <Grid />
       <Preorder />
@@ -71,7 +100,3 @@ function App() {
 }
 
 export default App;
-
-      
-
-      
