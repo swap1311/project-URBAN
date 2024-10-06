@@ -7,14 +7,16 @@ function Grid() {
         heading={"Walnut Grace Chair"}
         name={"Chair"}
         price={"3500"}
-        imgurl={ "https://s3-alpha-sig.figma.com/img/f402/4f67/3518716677159e44abb4071e76a70e01?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pm1dSd1U~iEX3ak-vpH2YqGs1saOE99KCT9hu5UiLACzVdDvm893ZuYWHYRHd-EbSV9FLfno4sXXaaT4ZAuLvjFXm5fgImbWrZ~VxLjo-VeQvALf5pVij3Sdn9mIhJ6mpB-EPFdzlFrOWu7jZErt9NKDBTv~H0ZvCK301sUvh08qGW1RDDDdj6udNRuGjpz0DVWuHxRTtlmB4mMs6s-t-MVV5JqP3Ouih2WniY4EaLyYX5AmC0gEXH1~HcnL46BB1zUqUgOdh8mt47FBXuKoLx6zfkRT0Xqj~dSxeE08k1lQep4R2cndyuOszkW~CMa-OsE60fi5dVwzJIBZLmD56w__"
+        imgurl={
+          "https://s3-alpha-sig.figma.com/img/f402/4f67/3518716677159e44abb4071e76a70e01?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pm1dSd1U~iEX3ak-vpH2YqGs1saOE99KCT9hu5UiLACzVdDvm893ZuYWHYRHd-EbSV9FLfno4sXXaaT4ZAuLvjFXm5fgImbWrZ~VxLjo-VeQvALf5pVij3Sdn9mIhJ6mpB-EPFdzlFrOWu7jZErt9NKDBTv~H0ZvCK301sUvh08qGW1RDDDdj6udNRuGjpz0DVWuHxRTtlmB4mMs6s-t-MVV5JqP3Ouih2WniY4EaLyYX5AmC0gEXH1~HcnL46BB1zUqUgOdh8mt47FBXuKoLx6zfkRT0Xqj~dSxeE08k1lQep4R2cndyuOszkW~CMa-OsE60fi5dVwzJIBZLmD56w__"
         }
       />
       <GridCart
         heading={"Minimalist Storage Buffet"}
         name={"Chair"}
         price={"3500"}
-        imgurl={ "https://s3-alpha-sig.figma.com/img/10ac/89d3/fb0c907a88ed1d2c351e63890b33d472?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DJqsUddS3zyVmXMMEu~8gAABPpVKQQomlYUS2nmlV9zHp38o4mGLOsvqSsDbxHV6SrXjZttUGbpUDCq7uAP-L10LagA7KHVkPsW8uZgSNlHxYcwe4mE0hPkQlNCNsdWr-Y-NRe8uofdxQyhgsvD39Z9azRhCtSp4vDWV-~0Q7OH63RHWvBaU2Xjr1MGLSDKMyMvc0axXH3tmIbCSEdaq7ZIsrsBa5pkHYMh-7rRAGD5EgLZHZbYJSZIjgTgyGkInekW0sa2z6JlgiAL5JO6Q2G3P8CtsmahEx9ghPHnxIi8fX5vlOxTXkNtIfHwZaY~SNnaKu1xKGYhM6-yItk3pDg__"
+        imgurl={
+          "https://s3-alpha-sig.figma.com/img/10ac/89d3/fb0c907a88ed1d2c351e63890b33d472?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DJqsUddS3zyVmXMMEu~8gAABPpVKQQomlYUS2nmlV9zHp38o4mGLOsvqSsDbxHV6SrXjZttUGbpUDCq7uAP-L10LagA7KHVkPsW8uZgSNlHxYcwe4mE0hPkQlNCNsdWr-Y-NRe8uofdxQyhgsvD39Z9azRhCtSp4vDWV-~0Q7OH63RHWvBaU2Xjr1MGLSDKMyMvc0axXH3tmIbCSEdaq7ZIsrsBa5pkHYMh-7rRAGD5EgLZHZbYJSZIjgTgyGkInekW0sa2z6JlgiAL5JO6Q2G3P8CtsmahEx9ghPHnxIi8fX5vlOxTXkNtIfHwZaY~SNnaKu1xKGYhM6-yItk3pDg__"
         }
       />
       <GridCart
@@ -56,7 +58,7 @@ function Grid() {
         imgurl={
           "https://s3-alpha-sig.figma.com/img/5d0b/55cc/17668a9c3e5ffa34f4c0f230bfac992d?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DlDgTZzAf~x9i6ug6HUOY71j4ZWVLvw1dOCjUjVmi~QD2G4LCOBI7xn2HFsvuubt-nVQ2HL~WLJcT3FTDK5updEr7l0msE5kB19LUB~oqeNqhhXXBKmkyFTgCR2N-AZTbeOgN7DGBo~isEM855bOUUpT8YxWu4LrUlE8doH9~CRLG1CzsPlRHO1yf~RZMHgD4yy74nlZ1-S3DbE7MuqB96WOXAatgE8QOkJ~v9GUyvZqSHUiUdPscfyQVse9vqvNaHej91zrJuA3CMoggKFler2e0czz1-r5LdNgozZ1PO9rdZNUNzB4E7WIjiaFzWAEEn4OW-cVYQ8CLTm6tk9tmQ__"
         }
-        style={{ width: '300px', height: '300px' }}
+        style={{ width: "300px", height: "300px" }}
       />
       <GridCart
         heading={"Tray Table"}
@@ -65,7 +67,6 @@ function Grid() {
         imgurl={
           "https://s3-alpha-sig.figma.com/img/5671/6b53/4f574434ac15a4fcac7ab28c92f8d87f?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QA72iF1NLOWD07xOXmtuNnTjnrY1QzqPG7szMXD7vVfnTAYmc2NPPmH8RaCTn9r701IuPyDlu4gQoStrEVOd9hfLLAvGut-j~AkDfBWETSyOVKsHuzR1WJ-4BoQ1UIOtyTrguFC0Efbszg1s65DHEe~q15rqaEFW3pfjTj0vHsjcAACRG~MqS6uH~JeemquUlpHLliWfSJyeNRI9lsfAMAAg5BXiAybEDYwT7g90h5PdJtj3sMPg8MmHO14Mmf81otZCJ3LivVkS3oVVOt3-kWvRryYp3SoUVkZHiaTVLPdtd~GHZW7K6xki31xYrShMKngkcwvfYTEuEwZhb5Fggg__"
         }
-        
       />
     </div>
   );
